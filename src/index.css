@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap");
+
+@import "tailwindcss";
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+  width:100%;
+  min-height:100%;
+}
+
+body{
+  font-family:"Outfit",sans-serif;
+  background:#090909;
+  color:white;
+}
+
+button{
+  cursor:pointer;
+  font-family:inherit;
+}
+
+input,
+button{
+  font-family:inherit;
+}
+
+input{
+  font-size:16px;
+  line-height:1;
+}
+
+input::placeholder{
+  color:#71717a;
+  opacity:1;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
